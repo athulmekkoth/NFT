@@ -14,7 +14,7 @@ string internal baseTokenUrl ; //wehere iamge located
 mapping(address=>uint256) public walletMint; //to keep track of all mint be done
 
 constructor()payable ERC721('RoboPunks','RP'){ //first ar name ans 2nd symbol
-    mintPrice=0.2 ether;
+    mintPrice=0.0002 ether;
     totalsupply=0;
     maxSupply=1000;
     maxPerwallet=3;

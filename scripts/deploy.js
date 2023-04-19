@@ -7,7 +7,7 @@ async function main() {
   const NFT = await hre.ethers.getContractFactory("NFT");
   const nft = await NFT.deploy();
 
-  await lock.deployed();
+  await nft.deployed();
 
   console.log("deployed to",nft.address);
 }
