@@ -5,6 +5,7 @@
     "@emotion/styled": "^11.10.6",
     "@openzeppelin/contracts": "^4.8.2",
     "dotenv": "^16.0.3",
+    "ethers": "^6.3.0",
     "framer-motion": "^10.8.5",
     "hardhat": "^2.13.0"
   },
